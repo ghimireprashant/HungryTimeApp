@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		EC32532D27B74B4600AE3832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32532C27B74B4600AE3832 /* AppDelegate.swift */; };
 		EC32532F27B74B4600AE3832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32532E27B74B4600AE3832 /* SceneDelegate.swift */; };
-		EC32533127B74B4600AE3832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32533027B74B4600AE3832 /* ViewController.swift */; };
-		EC32533427B74B4600AE3832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32533227B74B4600AE3832 /* Main.storyboard */; };
 		EC32533627B74B4900AE3832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32533527B74B4900AE3832 /* Assets.xcassets */; };
 		EC32533927B74B4900AE3832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32533727B74B4900AE3832 /* LaunchScreen.storyboard */; };
 		EC32534427B74B4900AE3832 /* HungryTimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32534327B74B4900AE3832 /* HungryTimeAppTests.swift */; };
 		EC32534E27B74B4900AE3832 /* HungryTimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32534D27B74B4900AE3832 /* HungryTimeAppUITests.swift */; };
 		EC32535027B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32534F27B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift */; };
+		EC32535F27B74D3F00AE3832 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32535E27B74D3F00AE3832 /* CartViewController.swift */; };
+		EC32536127B74D5000AE3832 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32536027B74D5000AE3832 /* Cart.storyboard */; };
+		EC32536527B74D7C00AE3832 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32536327B74D7C00AE3832 /* HomeViewController.swift */; };
+		EC32536627B74D7C00AE3832 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC32536427B74D7C00AE3832 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		EC32532927B74B4600AE3832 /* HungryTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC32532C27B74B4600AE3832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC32532E27B74B4600AE3832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC32533027B74B4600AE3832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC32533327B74B4600AE3832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC32533527B74B4900AE3832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC32533827B74B4900AE3832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC32533A27B74B4900AE3832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		EC32534927B74B4900AE3832 /* HungryTimeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HungryTimeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC32534D27B74B4900AE3832 /* HungryTimeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryTimeAppUITests.swift; sourceTree = "<group>"; };
 		EC32534F27B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryTimeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC32535E27B74D3F00AE3832 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		EC32536027B74D5000AE3832 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		EC32536327B74D7C00AE3832 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC32536427B74D7C00AE3832 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,11 @@
 		EC32532B27B74B4600AE3832 /* HungryTimeApp */ = {
 			isa = PBXGroup;
 			children = (
+				EC32536227B74D6000AE3832 /* Home */,
+				EC32535D27B74D2600AE3832 /* Cart */,
+				EC32535C27B74D1A00AE3832 /* Resource */,
 				EC32532C27B74B4600AE3832 /* AppDelegate.swift */,
 				EC32532E27B74B4600AE3832 /* SceneDelegate.swift */,
-				EC32533027B74B4600AE3832 /* ViewController.swift */,
-				EC32533227B74B4600AE3832 /* Main.storyboard */,
 				EC32533527B74B4900AE3832 /* Assets.xcassets */,
 				EC32533727B74B4900AE3832 /* LaunchScreen.storyboard */,
 				EC32533A27B74B4900AE3832 /* Info.plist */,
@@ -125,6 +130,31 @@
 				EC32534F27B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift */,
 			);
 			path = HungryTimeAppUITests;
+			sourceTree = "<group>";
+		};
+		EC32535C27B74D1A00AE3832 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EC32535D27B74D2600AE3832 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				EC32535E27B74D3F00AE3832 /* CartViewController.swift */,
+				EC32536027B74D5000AE3832 /* Cart.storyboard */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		EC32536227B74D6000AE3832 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC32536327B74D7C00AE3832 /* HomeViewController.swift */,
+				EC32536427B74D7C00AE3832 /* HomeViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC32533927B74B4900AE3832 /* LaunchScreen.storyboard in Resources */,
+				EC32536127B74D5000AE3832 /* Cart.storyboard in Resources */,
 				EC32533627B74B4900AE3832 /* Assets.xcassets in Resources */,
-				EC32533427B74B4600AE3832 /* Main.storyboard in Resources */,
+				EC32536627B74D7C00AE3832 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC32533127B74B4600AE3832 /* ViewController.swift in Sources */,
 				EC32532D27B74B4600AE3832 /* AppDelegate.swift in Sources */,
+				EC32535F27B74D3F00AE3832 /* CartViewController.swift in Sources */,
 				EC32532F27B74B4600AE3832 /* SceneDelegate.swift in Sources */,
+				EC32536527B74D7C00AE3832 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC32533227B74B4600AE3832 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC32533327B74B4600AE3832 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC32533727B74B4900AE3832 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,7 +467,7 @@
 				INFOPLIST_FILE = HungryTimeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +494,7 @@
 				INFOPLIST_FILE = HungryTimeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
