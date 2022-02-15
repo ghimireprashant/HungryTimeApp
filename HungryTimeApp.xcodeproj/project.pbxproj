@@ -16,8 +16,6 @@
 		EC32535027B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32534F27B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift */; };
 		EC32535F27B74D3F00AE3832 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32535E27B74D3F00AE3832 /* CartViewController.swift */; };
 		EC32536127B74D5000AE3832 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32536027B74D5000AE3832 /* Cart.storyboard */; };
-		EC32536527B74D7C00AE3832 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32536327B74D7C00AE3832 /* HomeViewController.swift */; };
-		EC32536627B74D7C00AE3832 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC32536427B74D7C00AE3832 /* HomeViewController.xib */; };
 		EC32536927B752EF00AE3832 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32536827B752EF00AE3832 /* ViewController+Extension.swift */; };
 		EC32536B27B75DA700AE3832 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32536A27B75DA600AE3832 /* ReuseIdentifiable.swift */; };
 		EC32536F27B764FF00AE3832 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32536E27B764FF00AE3832 /* Food.swift */; };
@@ -31,7 +29,6 @@
 		EC5B6D2427BA321E006F32FD /* CartItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5B6D2227BA321E006F32FD /* CartItemTableViewCell.xib */; };
 		EC5B6D2627BA5BC4006F32FD /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B6D2527BA5BC4006F32FD /* Extension+UIView.swift */; };
 		EC5D90A827BB51E100B5ADC5 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = EC32536C27B760F200AE3832 /* food.json */; };
-		EC635F1927BA658A00F1563B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC635F1827BA658A00F1563B /* ShadowView.swift */; };
 		EC635F1D27BB402E00F1563B /* CartTVHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC635F1C27BB402E00F1563B /* CartTVHeaderView.xib */; };
 		EC635F1F27BB405100F1563B /* CartTVHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC635F1E27BB405100F1563B /* CartTVHeaderView.swift */; };
 		EC93938027BBD0A700127C6B /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93937F27BBD0A700127C6B /* AddressViewController.swift */; };
@@ -72,8 +69,6 @@
 		EC32534F27B74B4900AE3832 /* HungryTimeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HungryTimeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EC32535E27B74D3F00AE3832 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		EC32536027B74D5000AE3832 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
-		EC32536327B74D7C00AE3832 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		EC32536427B74D7C00AE3832 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		EC32536827B752EF00AE3832 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		EC32536A27B75DA600AE3832 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
 		EC32536C27B760F200AE3832 /* food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
@@ -87,7 +82,6 @@
 		EC5B6D2127BA321E006F32FD /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
 		EC5B6D2227BA321E006F32FD /* CartItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemTableViewCell.xib; sourceTree = "<group>"; };
 		EC5B6D2527BA5BC4006F32FD /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
-		EC635F1827BA658A00F1563B /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		EC635F1C27BB402E00F1563B /* CartTVHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTVHeaderView.xib; sourceTree = "<group>"; };
 		EC635F1E27BB405100F1563B /* CartTVHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTVHeaderView.swift; sourceTree = "<group>"; };
 		EC93937F27BBD0A700127C6B /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
@@ -183,42 +177,21 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		EC32535D27B74D2600AE3832 /* Cart */ = {
+		EC32535D27B74D2600AE3832 /* CartModule */ = {
 			isa = PBXGroup;
 			children = (
+				EC93938B27BC1A7F00127C6B /* Cart */,
 				EC93937E27BBD07D00127C6B /* Address */,
 				EC5B6D1E27BA31A4006F32FD /* View */,
-				EC32535E27B74D3F00AE3832 /* CartViewController.swift */,
 				EC32536027B74D5000AE3832 /* Cart.storyboard */,
-				EC5B6D0F27BA25E4006F32FD /* CartViewModel.swift */,
-				EC5B6D1527BA273C006F32FD /* CartUseCase.swift */,
 			);
-			path = Cart;
-			sourceTree = "<group>";
-		};
-		EC32536227B74D6000AE3832 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				EC32537027B7713000AE3832 /* View */,
-				EC32536327B74D7C00AE3832 /* HomeViewController.swift */,
-				EC32536427B74D7C00AE3832 /* HomeViewController.xib */,
-				EC32536E27B764FF00AE3832 /* Food.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		EC32537027B7713000AE3832 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			path = CartModule;
 			sourceTree = "<group>";
 		};
 		EC5B6D1127BA25EF006F32FD /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EC32536227B74D6000AE3832 /* Home */,
-				EC32535D27B74D2600AE3832 /* Cart */,
+				EC32535D27B74D2600AE3832 /* CartModule */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -242,7 +215,6 @@
 			children = (
 				EC5B6D1A27BA2B9D006F32FD /* Stepper.xib */,
 				EC5B6D1C27BA2E9A006F32FD /* Stepper.swift */,
-				EC635F1827BA658A00F1563B /* ShadowView.swift */,
 				EC93938927BBFDC300127C6B /* FontExtension.swift */,
 			);
 			path = CustomView;
@@ -262,10 +234,29 @@
 		EC93937E27BBD07D00127C6B /* Address */ = {
 			isa = PBXGroup;
 			children = (
+				EC93938C27BC1AA600127C6B /* View */,
 				EC93937F27BBD0A700127C6B /* AddressViewController.swift */,
-				EC93938127BBD1A700127C6B /* TextFieldTableViewCell.swift */,
 			);
 			path = Address;
+			sourceTree = "<group>";
+		};
+		EC93938B27BC1A7F00127C6B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				EC32536E27B764FF00AE3832 /* Food.swift */,
+				EC32535E27B74D3F00AE3832 /* CartViewController.swift */,
+				EC5B6D0F27BA25E4006F32FD /* CartViewModel.swift */,
+				EC5B6D1527BA273C006F32FD /* CartUseCase.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		EC93938C27BC1AA600127C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC93938127BBD1A700127C6B /* TextFieldTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,7 +369,6 @@
 				EC32536127B74D5000AE3832 /* Cart.storyboard in Resources */,
 				EC32533627B74B4900AE3832 /* Assets.xcassets in Resources */,
 				EC5B6D2427BA321E006F32FD /* CartItemTableViewCell.xib in Resources */,
-				EC32536627B74D7C00AE3832 /* HomeViewController.xib in Resources */,
 				EC635F1D27BB402E00F1563B /* CartTVHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,12 +408,10 @@
 				EC5B6D1427BA26C1006F32FD /* Service.swift in Sources */,
 				EC5B6D2327BA321E006F32FD /* CartItemTableViewCell.swift in Sources */,
 				EC635F1F27BB405100F1563B /* CartTVHeaderView.swift in Sources */,
-				EC635F1927BA658A00F1563B /* ShadowView.swift in Sources */,
 				EC5B6D1D27BA2E9A006F32FD /* Stepper.swift in Sources */,
 				EC32536927B752EF00AE3832 /* ViewController+Extension.swift in Sources */,
 				EC32536B27B75DA700AE3832 /* ReuseIdentifiable.swift in Sources */,
 				EC93938227BBD1A700127C6B /* TextFieldTableViewCell.swift in Sources */,
-				EC32536527B74D7C00AE3832 /* HomeViewController.swift in Sources */,
 				EC5B6D1627BA273C006F32FD /* CartUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
