@@ -89,6 +89,7 @@
 		EC93938327BBD3AB00127C6B /* RequiredDefaultTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredDefaultTextField.swift; sourceTree = "<group>"; };
 		EC93938727BBDFA000127C6B /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
 		EC93938927BBFDC300127C6B /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		EC93938E27BC1FCE00127C6B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		EC32532027B74B4600AE3832 = {
 			isa = PBXGroup;
 			children = (
+				EC93938E27BC1FCE00127C6B /* README.md */,
 				EC32532B27B74B4600AE3832 /* HungryTimeApp */,
 				EC32534227B74B4900AE3832 /* HungryTimeAppTests */,
 				EC32534C27B74B4900AE3832 /* HungryTimeAppUITests */,
