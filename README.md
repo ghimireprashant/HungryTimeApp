@@ -15,4 +15,4 @@ iOS Deployment Target: 13.0
 - UIkit
 
 ![Alt Text](https://media.giphy.com/media/qddEtzUFhCFgspepPU/giphy.gif)
-![Alt Text](https://media.giphy.com/media/qddEtzUFhCFgspepPU/giphy.gif)
+![Alt Text](https://media.giphy.com/media/7Sn98bahH41nC56hcV/giphy.gif)
