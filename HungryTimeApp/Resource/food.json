@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Mutton Mo Mo Steam",
+    "description": "Dumpling stuffed with flavored and seasoned minced mutton meat, served with Tomato chutney",
+    "price": 250.00
+  },
+  {
+    "id": 2,
+    "title": "Veg Mo Mo Steam",
+    "description": " Steamed Dumpling Stuffed With Sautéed Mixed Vegetables and spices served with chef special chutney ",
+    "price": 170.00
+  },
+  {
+    "id": 3,
+    "title": "Chicken Momo Steam",
+    "description": "Dumpling stuffed with flavored and seasoned minced Chicken, served with chef special chutney",
+    "price": 205.00
+  },
+  {
+    "id": 4,
+    "title": "Mixed Hakka Noodles",
+    "description": "Noodles with assorted vegetables, chicken and mutton flavored by soya sauce and finished with sesame oil",
+    "price": 330.00
+  },
+  {
+    "id": 5,
+    "title": "Vegetable Hakka Noodles",
+    "description": "Stir-fried Noodles tossed with lots of spices, sauces, and a truckload of vegetables or finished with sesame oil.",
+    "price": 200.00
+  },
+  {
+    "id": 6,
+    "title": "Vegetable Sandwich",
+    "description": "Freshly baked plain or toasted bread filled with veggies, served with fries",
+    "price": 180.00
+  },
+  {
+    "id": 7,
+    "title": "Chicken Sandwich",
+    "description": "Freshly baked plain or toasted bread filled with veggies and chicken, served with fries",
+    "price": 250.00
+  },
+  {
+    "id": 8,
+    "title": "Corn Salt & Paper",
+    "description": "Sweet corn applied with corn flour deep fried and sated with capsicum ,onion and green chilly with salt and pepper seasoning",
+    "price": 325.00
+  },
+  {
+    "id": 9,
+    "title": "Local Chicken Bhutuwa",
+    "description": "Cubs of local chicken tossed with chopped onion, garlic, ginger, fresh red chilies, and traditional Nepalese Spices.",
+    "price": 460.00
+  },
+  {
+    "id": 10,
+    "title": "Mutton Tass set",
+    "description": "Mutton marinated with ginger, garlic, herbs and spice, cooked in flat grill, served with greens, Nepalis style tomato chutney, puffed rice and fried soybean ",
+    "price": 470.00
+  },
+  {
+    "id": 11,
+    "title": "Matar Paneer",
+    "description": "Peas and cottage cheese cooked in a tomato based sauce spice with garam masala ",
+    "price": 360.00
+  },
+  {
+    "id": 12,
+    "title": "Paneer Butter Masala",
+    "description": "Cottage cheese cooked in thick tomato sauce with butter and cream&nbsp; |&nbsp; ",
+    "price": 400.00
+  },
+  {
+    "id": 13,
+    "title": "Kadai Paneer",
+    "description": "Cottage cheese cooked with capsicum in kadai masala flavored with Indian herbs and spices ",
+    "price": 370.00
+  },
+  {
+    "id": 14,
+    "title": "Kadai Chicken",
+    "description": "Chicken cooked with capsicum in kadai masala flavored with Indian herbs and spices ",
+    "price": 380.00
+  },
+  {
+    "id": 15,
+    "title": "Chicken Butter Masala",
+    "description": "Boneless tandoori chicken cooked in thick tomato sauce with butter and cream ",
+    "price": 500.00
+  },
+  {
+    "id": 16,
+    "title": "Mutton Keema Curry",
+    "description": "Minced mutton cooked in gravy with fresh Indian herbs and spices ",
+    "price": 480.00
+  },
+  {
+    "id": 17,
+    "title": "Tawa Roti",
+    "description": "It is flatbread made of a wheat flour made in tawa. ",
+    "price": 25.00
+  },
+  {
+    "id": 18,
+    "title": "Plain Rice",
+    "description": "Fragrant Basmati Rice&nbsp; ",
+    "price": 120.00
+  },
+  {
+    "id": 19,
+    "title": "Jeera Rice",
+    "description": "steamed rice sautéed with cumin seed ",
+    "price": 155.00
+  },
+  {
+    "id": 20,
+    "title": "Veg Biryani",
+    "description": "Basmati Rice cooked with fresh vegetables and spices served with raita ",
+    "price": 310.00
+  },
+  {
+    "id": 21,
+    "title": "Chicken Biryani",
+    "description": "Chicken pieced cooked with basmati rice and Indian spices served with raita. ",
+    "price": 400.00
+  },
+  {
+    "id": 22,
+    "title": "Mutton Biryani",
+    "description": "Tender mutton pieced cooked with basmati rice and Indian spices ",
+    "price": 480.00
+  },
+  {
+    "id": 23,
+    "title": "Aloo Paratha with Curd",
+    "description": "It is flatbread made of a wheat flour and masala mix boiled potato made in tawa with boul curd. ",
+    "price": 170.00
+  },
+  {
+    "id": 24,
+    "title": "Dal Tadka",
+    "description": "Lentil cooked with onion and spice and tossed over with cumin, chili and coriander ",
+    "price": 165.00
+  },
+  {
+    "id": 25,
+    "title": "Chicken Kathi Roll",
+    "description": "Assorted vegetable wrapped in a paratha bread with sauce ",
+    "price": 300.00
+  },
+  {
+    "id": 26,
+    "title": "Egg Kathi Roll",
+    "description": "Assorted vegetable wrapped in a egg topped paratha bread with sauce. ",
+    "price": 300.00
+  },
+  {
+    "id": 27,
+    "title": "Veg Thukkpa",
+    "description": "Noodles cooked with vegetables in a vegetarian broth flavored with chinese sauce ",
+    "price": 160.00
+  },
+  {
+    "id": 28,
+    "title": "Chicken Thukkpa",
+    "description": "Noodles cooked with vegetables and chicken in a broth flavored with chinese sauce ",
+    "price": 220.00
+  },
+  {
+    "id": 29,
+    "title": "Veg pizza",
+    "description": "thin crust pizza base with spread of Napolitano sauce and topped with cheese &nbsp; ",
+    "price": 430.00
+  },
+  {
+    "id": 30,
+    "title": "Mushroom Pizza",
+    "description": "Thin Crust Pizza base with spread of Napolitano Sauce and topped with Capsicum, Tomato, Cheese, Oregano ",
+    "price": 495.00
+  },
+  {
+    "id": 31,
+    "title": "Chicken Pizza",
+    "description": "Thin Crust Pizza base with spread of Napolitano Sauce and Cheese, chicken and Oregano ",
+    "price": 495.00
+  },
+  {
+    "id": 32,
+    "title": "Mixed Pizza",
+    "description": "Thin Crust Pizza base with a spread of Napolitano Sauce and topped Cheese, Mushroom, Capsicum, Chicken, and Mutton ",
+    "price": 545.00
+  },
+  {
+    "id": 33,
+    "title": "Onion Pakoda",
+    "description": "Spicy onion fritters coated in gram flour and deep fried served with sauce.&nbsp;&nbsp; ",
+    "price": 200.00
+  },
+  {
+    "id": 34,
+    "title": "Chicken Momo Steam",
+    "description": "Buy 4 Momo Get 1 Veg Sandwich Free ",
+    "price": 205.00
+  },
+  {
+    "id": 35,
+    "title": "Veg Mo Mo Steam",
+    "description": "Buy 4 Momo Get 1 Veg Sandwich Free ",
+    "price": 170.00
+  }
+]
