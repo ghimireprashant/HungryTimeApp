@@ -9,11 +9,14 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+  var window: UIWindow?
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    self.window = UIWindow(frame: UIScreen.main.bounds)
+    if #available(iOS 13, *) { } else {
+      loadInitalViewController()
+    }
     return true
   }
 
@@ -30,7 +33,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
   }
-
-
+  // MARK: - appdelegate insatance
+  class func shared() -> AppDelegate? {
+    return UIApplication.shared.delegate as? AppDelegate
+  }
 }
-
+func loadInitalViewController() {
+  var mainWindow: UIWindow?
+  if #available(iOS 13.0, *) {
+    let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+    mainWindow = (windowScene?.delegate as? SceneDelegate)?.window
+  } else {
+    mainWindow = AppDelegate.shared()?.window
+  }
+//  let viewController = HomeViewController(nibName: HomeViewController.identifier, bundle: nil)
+//  mainWindow?.rootViewController = viewController
+//  mainWindow?.makeKeyAndVisible()
+  let storboard = UIStoryboard(name: "Cart", bundle: nil)
+  let viewController = storboard.instantiateViewController(withIdentifier: CartViewController.identifier) as! CartViewController
+  
+  let navigationController = UINavigationController(rootViewController: viewController)
+  mainWindow?.rootViewController = navigationController
+  mainWindow?.makeKeyAndVisible()
+}
